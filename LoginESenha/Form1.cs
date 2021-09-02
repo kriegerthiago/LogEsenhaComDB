@@ -92,6 +92,27 @@ namespace LoginESenha
             new frmLogin().Show();
             this.Hide();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
+        }
+
+        Point lastPoint;
+
+        private void frmRegistro_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                this.Left += e.X - lastPoint.X;
+                this.Top += e.Y - lastPoint.Y;
+            }
+        }
+
+        private void frmRegistro_MouseDown(object sender, MouseEventArgs e)
+        {
+            lastPoint = new Point(e.X, e.Y);
+        }
     }
     }
 

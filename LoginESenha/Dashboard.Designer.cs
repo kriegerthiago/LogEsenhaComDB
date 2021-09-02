@@ -65,14 +65,14 @@ namespace LoginESenha
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label15 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -86,10 +86,10 @@ namespace LoginESenha
             this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -307,9 +307,9 @@ namespace LoginESenha
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.label5.Location = new System.Drawing.Point(17, 98);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(105, 18);
+            this.label5.Size = new System.Drawing.Size(135, 18);
             this.label5.TabIndex = 1;
-            this.label5.Text = "Últimos 7 Dias";
+            this.label5.Text = " Ver Últimos 7 Dias";
             // 
             // label4
             // 
@@ -320,7 +320,7 @@ namespace LoginESenha
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(85, 24);
             this.label4.TabIndex = 1;
-            this.label4.Text = "R$ 1250";
+            this.label4.Text = "R$ 5268";
             // 
             // label3
             // 
@@ -361,9 +361,9 @@ namespace LoginESenha
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.label6.Location = new System.Drawing.Point(17, 98);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(105, 18);
+            this.label6.Size = new System.Drawing.Size(135, 18);
             this.label6.TabIndex = 1;
-            this.label6.Text = "Últimos 7 Dias";
+            this.label6.Text = " Ver Últimos 7 Dias";
             // 
             // label7
             // 
@@ -506,7 +506,7 @@ namespace LoginESenha
             // 
             this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(40, 44);
+            this.pictureBox5.Location = new System.Drawing.Point(40, 52);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(64, 64);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -517,11 +517,11 @@ namespace LoginESenha
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Font = new System.Drawing.Font("Nirmala UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(28, 24);
+            this.label15.Location = new System.Drawing.Point(11, 18);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(86, 17);
+            this.label15.Size = new System.Drawing.Size(124, 25);
             this.label15.TabIndex = 0;
             this.label15.Text = "Social Media";
             // 
@@ -540,67 +540,17 @@ namespace LoginESenha
             this.panel8.Size = new System.Drawing.Size(426, 82);
             this.panel8.TabIndex = 4;
             // 
-            // label12
+            // pictureBox9
             // 
-            this.label12.AutoSize = true;
-            this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(0, 55);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(72, 13);
-            this.label12.TabIndex = 0;
-            this.label12.Text = "Exportar Data";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(96, 55);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(93, 13);
-            this.label14.TabIndex = 0;
-            this.label14.Text = "Criar Novo Projeto";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.ForeColor = System.Drawing.Color.White;
-            this.label16.Location = new System.Drawing.Point(215, 56);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(74, 13);
-            this.label16.TabIndex = 0;
-            this.label16.Text = "Excluir Projeto";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.ForeColor = System.Drawing.Color.White;
-            this.label17.Location = new System.Drawing.Point(341, 55);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(40, 13);
-            this.label17.TabIndex = 0;
-            this.label17.Text = "Logout";
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(67, 41);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 1;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(108, 3);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(67, 41);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 1;
-            this.pictureBox7.TabStop = false;
+            this.pictureBox9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+            this.pictureBox9.Location = new System.Drawing.Point(328, 3);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(67, 41);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 1;
+            this.pictureBox9.TabStop = false;
+            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
             // 
             // pictureBox8
             // 
@@ -613,17 +563,67 @@ namespace LoginESenha
             this.pictureBox8.TabIndex = 1;
             this.pictureBox8.TabStop = false;
             // 
-            // pictureBox9
+            // pictureBox7
             // 
-            this.pictureBox9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(328, 3);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(67, 41);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 1;
-            this.pictureBox9.TabStop = false;
-            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
+            this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(108, 3);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(67, 41);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 1;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(67, 41);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 1;
+            this.pictureBox6.TabStop = false;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.ForeColor = System.Drawing.Color.White;
+            this.label17.Location = new System.Drawing.Point(341, 55);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(40, 13);
+            this.label17.TabIndex = 0;
+            this.label17.Text = "Logout";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.ForeColor = System.Drawing.Color.White;
+            this.label16.Location = new System.Drawing.Point(215, 56);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(74, 13);
+            this.label16.TabIndex = 0;
+            this.label16.Text = "Excluir Projeto";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.ForeColor = System.Drawing.Color.White;
+            this.label14.Location = new System.Drawing.Point(96, 55);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(93, 13);
+            this.label14.TabIndex = 0;
+            this.label14.Text = "Criar Novo Projeto";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.Location = new System.Drawing.Point(0, 55);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(72, 13);
+            this.label12.TabIndex = 0;
+            this.label12.Text = "Exportar Data";
             // 
             // Dashboard
             // 
@@ -647,6 +647,8 @@ namespace LoginESenha
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";
             this.Load += new System.EventHandler(this.Dashboard_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Dashboard_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Dashboard_MouseMove);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -667,10 +669,10 @@ namespace LoginESenha
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -698,7 +700,6 @@ namespace LoginESenha
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Panel panel5;
@@ -710,7 +711,6 @@ namespace LoginESenha
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.PictureBox pictureBox5;
@@ -721,5 +721,7 @@ namespace LoginESenha
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label6;
     }
 }

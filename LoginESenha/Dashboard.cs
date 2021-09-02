@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using System.Data.OleDb;
 
 namespace LoginESenha
 {
@@ -37,6 +38,7 @@ namespace LoginESenha
             pnlNav.Top = btnDashboard.Top;
             pnlNav.Left = btnDashboard.Left;
             btnDashboard.BackColor = Color.FromArgb(46, 51, 73);
+
 
         }
 
@@ -78,6 +80,8 @@ namespace LoginESenha
             pnlNav.Top = btnContato.Top;
             pnlNav.Left = btnContato.Left;
             btnContato.BackColor = Color.FromArgb(46, 51, 73);
+            new Contato().Show();
+            this.Hide();
         }
 
         private void btnConfigurar_Click(object sender, EventArgs e)
@@ -120,6 +124,8 @@ namespace LoginESenha
 
         private void pictureBox9_Click(object sender, EventArgs e)
         {
+            
+
             new frmLogin().Show();
             this.Hide();
         }
@@ -127,6 +133,20 @@ namespace LoginESenha
         private void pictureBox5_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("http://www.facebook.com");
+        }
+        Point lastPoint;
+        private void Dashboard_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                this.Left += e.X - lastPoint.X;
+                this.Top += e.Y - lastPoint.Y;
+            }
+        }
+
+        private void Dashboard_MouseDown(object sender, MouseEventArgs e)
+        {
+            lastPoint = new Point(e.X, e.Y);
         }
     }
 }

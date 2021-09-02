@@ -102,6 +102,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contato.Designer.cs">
+      <DependentUpon>Contato.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,6 +128,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Contato.resx">
+      <DependentUpon>Contato.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>

@@ -17,8 +17,10 @@ namespace LoginESenha
         public frmLogin()
         {
             InitializeComponent();
-
+           
+            
         }
+        
 
         OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=db_users.mdb");
         OleDbCommand cmd = new OleDbCommand();
@@ -42,7 +44,7 @@ namespace LoginESenha
 
         private void frmLogin_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void btnLimpar_Click(object sender, EventArgs e)
@@ -55,14 +57,16 @@ namespace LoginESenha
         private void btnEntrar_Click(object sender, EventArgs e)
         {
             con.Open();
-            string login = "SELECT * FROM tbl_users WHERE usuario= '"+txtUsuario.Text+"' and senha= '"+txtSenha.Text+"' ";
+            string login = "SELECT * FROM tbl_users WHERE usuario= '" + txtUsuario.Text + "' and senha= '" + txtSenha.Text + "' ";
             cmd = new OleDbCommand(login, con);
             OleDbDataReader dr = cmd.ExecuteReader();
-
+            
             if (dr.Read() == true)
             {
+
                 new Dashboard().Show();
                 this.Hide();
+                con.Close();
             }
             else
             {
@@ -70,6 +74,7 @@ namespace LoginESenha
                 txtUsuario.Text = "";
                 txtSenha.Text = "";
                 txtUsuario.Focus();
+                con.Close();
             }
 
 
@@ -81,6 +86,28 @@ namespace LoginESenha
         {
             new frmRegistro().Show();
             this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
+        }
+
+
+        Point lastPoint; // variavel lastpoint para mover tela
+
+        private void frmLogin_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                this.Left += e.X - lastPoint.X;
+                this.Top += e.Y - lastPoint.Y;
+            }
+        }
+
+        private void frmLogin_MouseDown(object sender, MouseEventArgs e)
+        {
+            lastPoint = new Point(e.X, e.Y);
         }
     }
 }
