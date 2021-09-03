@@ -137,6 +137,7 @@ namespace LoginESenha
             // 
             // btnContato
             // 
+            this.btnContato.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnContato.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnContato.FlatAppearance.BorderSize = 0;
             this.btnContato.FlatStyle = System.Windows.Forms.FlatStyle.Flat;

@@ -162,8 +162,11 @@ namespace LoginESenha
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Contato";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Contato";
             this.Load += new System.EventHandler(this.Contato_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Contato_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Contato_MouseMove);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

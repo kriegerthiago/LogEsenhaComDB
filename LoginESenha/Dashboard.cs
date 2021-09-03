@@ -72,6 +72,8 @@ namespace LoginESenha
             pnlNav.Top = btnCalendario.Top;
             pnlNav.Left = btnCalendario.Left;
             btnCalendario.BackColor = Color.FromArgb(46, 51, 73);
+            new Calendario().Show();
+            this.Hide();
         }
 
         private void btnContato_Click(object sender, EventArgs e)
