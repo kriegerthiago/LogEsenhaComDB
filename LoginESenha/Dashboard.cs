@@ -64,6 +64,9 @@ namespace LoginESenha
             pnlNav.Top = btnAnalise.Top;
             pnlNav.Left = btnAnalise.Left;
             btnAnalise.BackColor = Color.FromArgb(46, 51, 73);
+
+            new Estatistica().Show();
+            this.Hide();
         }
 
         private void btnCalendario_Click(object sender, EventArgs e)
